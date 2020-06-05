@@ -3,6 +3,7 @@
     <head>
         <meta charset= "UTF-8" >
         <title>Хьюстон</title>
+        <link rel= "stylesheet" href= "style.css">
     </head>
     <body>
         <h1>Хьюстон</h1>
@@ -63,7 +64,7 @@
         <h2 id = "history">История</h2>
         <body>
             <h3 id = "etymology">Этимология, прозвища</h3>
-            <figure>
+            <figure class = "img">
                 <img 
                     src = "res/Sam_Houston_portrait.jpg"
                     title = "Сэмюэл Хьюстон"
@@ -88,7 +89,7 @@
         </body>
         <body>
             <h3 id = "base">Основание</h3>
-            <figure>
+            <figure class = "img">
                 <img 
                     src = "res/Allen's_Landing_Houston_bayou_view.jpg"
                     title="Allen's Landing - место, где был основан город"
@@ -114,7 +115,7 @@
         </body>
         <body>
             <h3 id = "twentieth_century"> ХХ век</h3>
-            <figure>
+            <figure class = "img">
                 <img
                     src = "res/Main_Street_looking_south_Houston_Texas_(1908).jpg"
                     title = "Мэйн-Стрит в центре, 1908 год"
@@ -158,7 +159,7 @@
         <h2 id = "physics">Физико-географическая характеристика</h2>
         <body>
             <h3 id = "geography">Географическое положение и климат</h3>
-            <figure>
+            <figure class = "img">
                 <img 
                     src = "res/Large_Houston_Landsat.jpg"
                     title = "Хьюстон со спутника Landsat 7"
@@ -189,7 +190,9 @@
                 покров.
             </p>
             <table>
-                <caption><b>Дни с ясной и дождливой погодой в месяц (суммарно по часам)</b></caption>
+                <tr>
+                    <th colspan="14", align = "center">Дни с ясной и дождливой погодой в месяц (суммарно по часам)</th>
+                </tr>
                 <tr>
                     <th>Месяц</th>
                     <th>Янв</th>
@@ -265,7 +268,7 @@
         </body>
         <body>
             <h3 id = "flora">Флора и фауна</h3>
-            <figure>
+            <figure class = "img">
                 <img 
                     src = "res/Discovery_green.jpg"
                     title = "Парк Discovery green в центре Хьюстона"
@@ -295,8 +298,10 @@
         <h2 id = "economic">Экономика</h2>
         <body>
             <h3 id = "general">Общее состояние</h3>
-            <table width = 45%>
-                <caption caption = "1"><b>Крупнейшие компании, базирующиеся в Хьюстоне по версии Fortune 500 на 2016 год.</b></caption>
+            <table>
+                <tr>
+                    <th colspan="3", align = "Center">Крупнейшие компании, базирующиеся в Хьюстоне по версии Fortune 500 на 2016 год</th>
+                </tr>
                 <tr>
                     <th>Техас</th>
                     <th>Компания</th>
@@ -413,7 +418,7 @@
                     <td>493</td>
                 </tr>                
             </table>
-            <figure>
+            <figure class = "img">
                 <img
                     src = "res/Houston_Ship_Channel.jpg"
                     title = "Хьюстонский судоходный канал"
@@ -453,7 +458,7 @@
                 входящих в список Fortune 500. Хьюстон является членом Всемирного партнёрства энергетических
                 городов.
             </p>
-            <figure>
+            <figure class = "img">
                 <img 
                     src = "res/Enron_Complex.jpg"
                     title = "Офис компании Chevron в Хьюстоне"
@@ -487,7 +492,7 @@
         </body>
         <body>
             <h3 id = "air">Авиакосмическая промышленность</h3>
-            <figure>
+            <figure class = "img">
                 <img
                     src = "res/Aerial_View_of_the_Johnson_Space_Center.jpg"
                     title = "Космический центр им. Джонсона"
@@ -524,8 +529,10 @@
         <body>
             <h3 id = "dinamic">Динамика и структура населения</h3>
             <figure>
-                <table width = 35%>
-                    <caption><b>Перепись населения</b></caption>
+                <table>
+                    <tr>
+                        <th colspan="3", align = "Center">Перепись населения</th>
+                    </tr>
                     <tr>
                         <th>Год переписи</th>
                         <th>Нас.</th>
@@ -624,7 +631,7 @@
                 </table>
                 <figcaption>1850-2017 Переписи населения в 1790—2010 годах</figcaption>
             </figure>
-            <figure>
+            <figure class = "img">
                 <img
                     src = "res/Race_and_ethnicity_2010_Houston.png"
                     title = "Этническая карта Хьюстона"
@@ -677,7 +684,7 @@
     <body>
         <h2 id = "media">Средства массовой информации</h2>
         <body>
-            <figure>
+            <figure class = "img">
                 <img   
                     src = "res/Melcher_Center_for_Public_Broadcasting.jpg"
                     title = "Вещательный центр, откуда вещают радиостанции KUHT и KUHF"
