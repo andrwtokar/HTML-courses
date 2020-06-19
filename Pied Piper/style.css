@@ -245,8 +245,7 @@ a {
 }
 
 .teamdescription1 {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 
     max-width: 1109px;
 }
@@ -254,7 +253,11 @@ a {
 .team .background .teamdescription1 figure {
     display: inline-block;
 
-    width: 25%;
+    text-align: center;
+
+    margin: auto;
+
+    width: 33%;
 }
 
 .team .background img {
