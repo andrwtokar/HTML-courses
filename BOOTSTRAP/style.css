@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url(res/fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.content {
+    padding-left: 55px;
+    padding-right: 55px;
+
+    max-width: 1219px;
+    width: 100%;
+    margin: auto;
+}
