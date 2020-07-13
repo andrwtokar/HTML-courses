@@ -307,14 +307,17 @@ h1 {
 }
 
 
+
 /* Tractir part*/
+
+
 
 .JumbothronTraktir {
     margin-top: 72px;
     padding-top: 80px;
     padding-bottom: 80px;
-    background: url(res/img/Puskin/jumbotron.png);
-    background-size: auto;
+    background-image: url(res/img/Puskin/jumbothron.png);
+    background-size: cover;
     background-position: center center;
 }
 
@@ -357,10 +360,9 @@ h1 {
 
     width: 100px;
     height: 32px;
-
-    border: 1px solid #E0E0E0;
+    
+    border: none;
     border-radius: 16px;
-    color: #ffffff;
     background: #262626;
     cursor: pointer;
 
@@ -387,8 +389,159 @@ h1 {
     color: #626262;
 }
 
-@media screen and (max-width: 768px) {
+.navbarMenu button {
+    padding-top: 32px;
+    padding-bottom: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
 
+    border: none;
+    border-radius: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    background: #ffffff;
+
+    text-align: center;
+}
+
+.navbarMenu button:hover {
+    background: rgb(240, 240, 240);
+    border: none;
+}
+
+.navbarMenu .active {
+    color: #327430;
+    border: none;
+}
+
+.navbarMenu {
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.headOfMenuList {
+    margin-top: 56px;
+    margin-bottom: 32px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    /* identical to box height, or 155% */
+
+    display: flex;
+    align-items: center;
+
+    color: #1D1D1D;
+}
+
+.PuskinCard {
+    margin-bottom: 49px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0px;
+    background: #FFFFFF;
+
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+
+    height: 160px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.PuskinCard:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.PuskinCard img {
+    float: right;
+    margin-top: 0px;
+
+    height: 159px;
+
+}
+
+.PuskinCard .href {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.PuskinCard .href h1 {
+    margin-top: 16px;
+    margin-left: 16px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #1D1D1D;
+}
+
+.PuskinCard .href h2 {
+    margin-left: 16px;
+    margin-top: 4px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #626262;
+
+}
+
+.PuskinCard .href h3 {
+    margin-left: 16px;
+    margin-bottom: 16px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #1D1D1D;
+}
+
+@media screen and (max-width: 768px) {
+    .JumbothronTraktir  {
+        background-image: url(res/img/Puskin/jumbotron.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 131px;
+        margin-top: 72px;
+        background-position: top;
+    }
+
+    .JumbothronTraktir .Puskin .cash {
+        flex-direction: column;
+    }
+
+    .JumbothronTraktir h1 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .navbarMenu {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
