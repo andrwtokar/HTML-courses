@@ -440,6 +440,11 @@ h1 {
     color: #1D1D1D;
 }
 
+.PuskinCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .PuskinCard {
     margin-bottom: 49px;
     margin-left: 8px;
@@ -477,7 +482,6 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .PuskinCard .href h1 {
     margin-top: 16px;
