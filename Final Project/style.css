@@ -290,6 +290,16 @@ h1 {
     color: #FFFFFF;
 }
 
+.Up img {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+    z-index: 999;
+    
+    width: 80px;
+    height: 80px;
+}
+
 @media screen and (min-width: 1124px) {
     .content {
         padding-left: 80px;
